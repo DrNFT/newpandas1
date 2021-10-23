@@ -111,10 +111,10 @@ function App() {
     },
     NFT_NAME: "",
     SYMBOL: "",
-    MAX_SUPPLY: 1,
-    WEI_COST: 0,
-    DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
+    MAX_SUPPLY: 5000,
+    WEI_COST: 75000000000000000,
+    DISPLAY_COST: 25,
+    GAS_LIMIT: 300000,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: false,
@@ -397,9 +397,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            Gas limit is set to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT. ***Please note: sometimes due to network congestion, your unique NFT may not show the correct image right away. 
+            Refreshing metadata for the image on OpenSea will resolve this.
           </s.TextDescription>
         </s.Container>
       </s.Container>
