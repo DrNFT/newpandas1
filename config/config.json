@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x9d17d52d185efb0644164f39f631e1012518ee43",
+  "SCAN_LINK": "https://polygonscan.com/token/0x9d17d52d185efb0644164f39f631e1012518ee43",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Poly Pandas",
+  "SYMBOL": "PP",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 25,
+  "GAS_LIMIT": 300000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-poly-pandas",
+  "SHOW_BACKGROUND": true
+}
